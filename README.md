@@ -1,2 +1,2 @@
-# Covid19-SL
-application for covid19
+# COVID19-SL
+An android application for covid19
