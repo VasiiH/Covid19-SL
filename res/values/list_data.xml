@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quarantine_centers">
+    <item>Teaching Hospital, Jaffna</item>
+    <item>Teaching Hospital, Anuradhapura</item>
+    <item>Polonnaruwa General Hospital</item>
+    <item>Welikanda General Hospital</item>
+    <item>Teaching Hospital, Batticaloa மட்டகளப்பு போதனா வைத்தியசாலை</item>
+    <item>Kandy National Hospital</item>
+    <item>Teaching Hospital, Kurunegala</item>
+    <item>Provincial General Hospital, Badulla පළාත් මහ රෝහල - බදුල්ල</item>
+    <item>Base Hospital, Monaragala</item>
+    <item>Hambantota General Hospital</item>
+    <item>GTeaching Hospital, Karapitiya (කරාපිටිය ශික්ෂණ රෝහල)</item>
+    <item>Teaching Hospital, Ratnapura</item>
+    <item>General Hospital Nagoda, Kalutara</item>
+    <item>Base Hospita, Homagama</item>
+    <item>Colombo South Teaching Hospital, Kalubowila</item>
+    <item>Dr. Neville Fernando Teaching Hospital</item>
+    <item>Colombo East Base Hospital (CEBH), Mulleriyawa</item>
+    <item>National Institute of Infectious Diseases</item>
+    <item>Castle Street Hospital for Women</item>
+    <item>Lady Ridgeway Hospital for Children (LRH)</item>
+    <item>The National Hospital of Sri Lanka</item>
+    <item>DeSoysa Maternity Hospital (Teaching)</item>
+    <item>National Hospital For Respiratory Diseases, Welisara</item>
+    <item>Colombo North Teaching Hospital, Ragama</item>
+    <item>District General Hospital Gampaha(දිස්ත්රික් මහා රෝහල ගම්පහd</item>
+    <item>District General Hospital, Negombo</item>
+    <item>District General Hospital, Matara</item>
+    <item>University Hospital KDU</item>
+    <item>District General Hospital, Chilaw</item>
+    <item>District General Hospital,Vavuniya</item>
+    </string-array>
+</resources>

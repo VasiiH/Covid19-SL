@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity" />
+
+    <Button
+        android:id="@+id/date_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/common_google_signin_btn_text_light_focused"
+        android:textColor="#FFFFFF"></Button>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="190dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/covid_19_sri_lanka"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/cntrs"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button2"
+        android:text="@string/srilanka_quarantine_centers"
+        android:textColor="#FFFFFF"></Button>
+
+    <Button
+        android:id="@+id/english_confirmed"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/confirmed"
+        android:textColor="#FF0000"></Button>
+
+    <Button
+        android:id="@+id/sinhala_confirm"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/fgf"
+        android:textColor="#FF0000"
+        android:visibility="invisible"></Button>
+
+    <Button
+        android:id="@+id/tamil_confirm"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/cnr"
+        android:textColor="#FF0000"
+        android:visibility="invisible"></Button>
+
+    <Button
+        android:id="@+id/confirmed"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/rounted_button"
+        android:textColor="#FF0000"></Button>
+
+    <Button
+        android:id="@+id/english_death"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/deaths"
+        android:textColor="#746969"></Button>
+
+    <Button
+        android:id="@+id/sinhala_death"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/cnrs"
+        android:textColor="#746969"
+        android:visibility="invisible"></Button>
+
+    <Button
+        android:id="@+id/tamil_death"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/asd"
+        android:textColor="#746969"
+        android:visibility="invisible"></Button>
+
+    <Button
+        android:id="@+id/recovered"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/rounted_button"
+        android:textColor="#0AF706"></Button>
+
+    <Button
+        android:id="@+id/english_recovered"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/recovered"
+        android:textColor="#0AF706"></Button>
+
+    <Button
+        android:id="@+id/sinhala_recovered"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/dfv"
+        android:textColor="#0AF706"
+        android:visibility="invisible"></Button>
+
+    <Button
+        android:id="@+id/tamil_recovered"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/df"
+        android:textColor="#0AF706"
+        android:visibility="invisible"></Button>
+
+    <Button
+        android:id="@+id/suspected"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rounted_button"
+        android:textColor="#FB6B0D"></Button>
+
+    <Button
+        android:id="@+id/english_suspected"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/suspected"
+        android:textColor="#FB6B0D"></Button>
+
+    <Button
+        android:id="@+id/sinhala_suspected"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/hgh"
+        android:textColor="#FB6B0D"
+        android:visibility="invisible"></Button>
+
+    <Button
+        android:id="@+id/tamil_suspected"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/fg"
+        android:textColor="#FB6B0D"
+        android:visibility="invisible"></Button>
+
+    <Button
+        android:id="@+id/deaths"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/rounted_button"
+        android:textColor="#746969"
+        ></Button>
+
+
+    <Button
+        android:id="@+id/sinhala"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/stay_home"
+        android:textStyle="bold"
+        ></Button>
+
+    <Button
+        android:id="@+id/english"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/stay_safe"
+        android:textStyle="bold"
+        ></Button>
+
+    <Button
+        android:id="@+id/tamil"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/rounted_button"
+        android:text="@string/stay_positive"
+        android:textStyle="bold"
+        ></Button>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">covidFinder</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="_185">185</string>
+    <string name="deaths">Deaths</string>
+    <string name="_6">6</string>
+    <string name="recovered">Recovered</string>
+    <string name="_42">42</string>
+    <string name="todo">TODO</string>
+    <string name="suspected">Suspected</string>
+    <string name="stay_safe">English</string>
+    <string name="stay_home">සිංහල</string>
+    <string name="stay_positive">தமிழ்</string>
+    <string name="covid_19_sri_lanka">COVID-19, Sri Lanka</string>
+    <string name="srilanka_quarantine_centers">Sri Lanka Quarantine Centers\n ↓↓↓↓↓</string>
+    <string name="about">The app developed and maintained by\n vasi</string>
+    <string name="a">Ambulance Service\nfor Emergency</string>
+    <string name="b">Health Information</string>
+    <string name="c">Covid-19 Related\nComplains</string>
+    <string name="_117">117</string>
+    <string name="_1999">1999</string>
+    <string name="_1990">1990</string>
+    <string name="cnr">உறுதியானது</string>
+    <string name="cnrs">මරණ</string>
+    <string name="asd">இறப்புகள்</string>
+    <string name="dfv">සුවය ලැබීය</string>
+    <string name="df">மீட்கப்பட்டது</string>
+    <string name="fg">சந்தேகமானது</string>
+    <string name="fgf">තහවුරු</string>
+    <string name="hgh">සැක</string>
+</resources>

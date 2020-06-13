@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "944562481884",
+    "firebase_url": "https://covidfinder-6bf7e.firebaseio.com",
+    "project_id": "covidfinder-6bf7e",
+    "storage_bucket": "covidfinder-6bf7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944562481884:android:a4b80ff61e407fba8fe219",
+        "android_client_info": {
+          "package_name": "com.vasi.covidfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944562481884-n506u2f464sij60noc8rhqpoes1a5890.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3TGWJBCPdkeJghW01AXodLtFl0kl2Pqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944562481884-n506u2f464sij60noc8rhqpoes1a5890.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
